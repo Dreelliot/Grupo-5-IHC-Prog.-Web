@@ -1,0 +1,116 @@
+/* Estilos para el encabezado */
+.header {
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .Logo {
+    position: absolute;
+    width: 304px;
+    height: auto;
+    left: 5px; /* Distancia desde la izquierda */
+    margin-top: -34.5px;;
+}
+
+/* Estilos para el barra lateral */
+.sidebar {
+    background-color: #F5F5F5;
+    color: #000;
+    width: 8%;
+    height: 100;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.profile img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.menu {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0;
+    transform: rotate(0); /* Restablecer la rotación a 0 grados */
+}
+
+.menu a:hover{
+    background-color: #F5F5F5;
+
+    color: #4B64E8;
+}
+
+.menu a.active {
+    color: #F5F5F5;
+    background-color: #4B64E8; /* Color de resaltado más oscuro */
+    border-radius: 5px;
+    padding: 5px; /* Espaciado interno */
+}
+
+/* Estilos para el contenido principal */
+.content {
+    margin-top: -290px;
+    color: #F5F5F5;
+    width: 84%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px; /* Espacio entre etiquetas */
+}
+
+input[type="text"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+.btnblue {
+    background-color: #4B64E8;
+    margin-left: 50px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}

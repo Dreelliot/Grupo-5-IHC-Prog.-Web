@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import { Landing } from './components/Landing';
+import { Signup } from './components/Signup';
+import { Login } from './components/Login';
+import { Create_events } from './components/Create_events';
+import { Events } from './components/Events';
+import { Posts_wall } from './components/Posts_wall';
+import { Reset_pass } from './components/Reset_pass';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Routes>
+        
+          <Route path="/" element = {<Landing />} />
+          <Route path="/Signup" element = {<Signup />} />
+          <Route path="/Login" element = {<Login />} />
+          <Route path="/Events" element = {<Events />} />
+          <Route path="/Create_events" element = {<Create_events />} />
+          <Route path="/Posts_wall" element = {<Posts_wall />} />
+          <Route path="/Reset_pass" element = {<Reset_pass />} />
+  
+        </Routes>
+      </Router>
   );
 }
+
 
 export default App;

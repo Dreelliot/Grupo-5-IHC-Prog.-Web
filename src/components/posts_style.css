@@ -1,0 +1,130 @@
+/* Estilos para el encabezado */
+.header {
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .Logo {
+    position: absolute;
+    width: 304px;
+    height: auto;
+    left: 5px; /* Distancia desde la izquierda */
+    margin-top: -34.5px;;
+}
+
+/* Estilos para el barra lateral */
+.sidebar {
+    background-color: #F5F5F5;
+    color: #000;
+    width: 8%;
+    height: 100;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.profile img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0;
+    transform: rotate(0); /* Restablecer la rotación a 0 grados */
+}
+
+/* Estilos para el contenido principal */
+.content {
+    margin-top: -290px;
+    color: #F5F5F5;
+    width: 84%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.event-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.event {
+    background-color: #132E32;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.event img {
+    max-width: 100%;
+}
+
+/* Resto de estilos... */
+
+/* Añade estos estilos para ajustar el contenido de la franja lateral */
+.profile {
+    text-align: center; /* Centrar el contenido verticalmente */
+}
+
+.menu {
+    display: flex;
+    flex-direction: column; /* Alinear los botones verticalmente */
+    align-items: center; /* Centrar los botones verticalmente */
+}
+
+/* Añade estos estilos para resaltar la sesión activa en el menú del sidebar */
+.menu a.active {
+    color: #F5F5F5;
+    background-color: #4B64E8; /* Color de resaltado más oscuro */
+    border-radius: 5px;
+    padding: 5px; /* Espaciado interno */
+}
+
+/* Estilos para las fotos de perfil en las publicaciones */
+.post .post-header img {
+    max-width: 40px; /* Ajusta el tamaño de las fotos de perfil */
+    border-radius: 50%;
+}
+
+/* Estilos para el contenedor de cada publicación */
+.post {
+    background-color: #132E32;
+    padding: 20px; /* Aumentar el tamaño de las publicaciones */
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px; /* Aumentar el ancho de las publicaciones */
+    margin: 10px; /* Espacio entre las publicaciones */
+    display: flex;
+    flex-direction: column;
+}
+
+.post .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .post-header .user-info {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px; /* Espacio entre la foto de perfil y el nombre */
+}
