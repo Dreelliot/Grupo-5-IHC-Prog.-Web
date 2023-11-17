@@ -1,0 +1,52 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Jeffrey",
+      "apellidoPat": "Diaz",
+      "apellidoMat": "Villanueva",
+      "email": "jeffdx16@gmail.com",
+      "password": "12345",
+      "id": "1"
+    },
+    {
+      "nombre": "Ricardo",
+      "email": "ricky@gmail.com",
+      "apellidoPat": "Rivas",
+      "apellidoMat": "Carrillo",
+      "password": "54321",
+      "id": "2"
+    },
+    {
+      "nombre": "Ulises",
+      "apellidoPat": "Diaz",
+      "apellidoMat": "Villanueva",
+      "email": "asdas@gmail.com",
+      "password": "123456789",
+      "id": "XFgTsQi"
+    },
+    {
+      "nombre": "qwdas",
+      "apellidoPat": "asdasd",
+      "apellidoMat": "fafsd",
+      "email": "asdas@asdas.com",
+      "password": "qwewd",
+      "id": "DL1VUUy"
+    },
+    {
+      "nombre": "Ulises",
+      "apellidoPat": "Rojas",
+      "apellidoMat": "Silva",
+      "email": "ulises@gmail.com",
+      "password": "123456",
+      "id": "7lqQQ-R"
+    },
+    {
+      "nombre": "Alex",
+      "apellidoPat": "Rojas",
+      "apellidoMat": "Fuego",
+      "email": "alex@gmail.com",
+      "password": "123456789",
+      "id": "N23Djbr"
+    }
+  ]
+}
