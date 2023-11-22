@@ -3,6 +3,14 @@ import './eventos_style.css';
 import { Link } from 'react-router-dom';
 import Cookies from 'universal-cookie';
 
+
+
+// Be sure to include styles at some point, probably during your bootstraping
+import '@trendmicro/react-sidenav/dist/react-sidenav.css';
+import { Landing } from './Landing';
+import { Create_events } from './Create_events';
+import { Posts_wall } from './Posts_wall';
+
 export const Events = () => {
     const cookies = new Cookies();
     const nombreAlmacenado = cookies.get('nombre') || 'Invitado'; // Si no hay cookie, establece un valor predeterminado vacío
@@ -15,6 +23,8 @@ export const Events = () => {
     <link rel="stylesheet" href="eventos_style.css" />
     <title>Eventos - Campusphere</title>
 </head>
+
+
 <body>
     <div class="header">
         <Link to="/"><img class= "Logo" src="/img/logo.png" alt="Mi Logo" /></Link>
